@@ -14,7 +14,7 @@
   "kv_namespaces": [
     {
       "binding": "FODI_CACHE",
-      // "preview_id": "", // for development
+      // "preview_id": "f6c9b2af54f84f75a3147a786abdf49f", // for development
       "id": "f6c9b2af54f84f75a3147a786abdf49f" // <~ https://dash.cloudflare.com/?to=/:account/workers/kv/namespaces
     }
   ],
@@ -37,7 +37,7 @@
       "EXPOSE_PATH": "",
       // Encrypt the directory containing the filename, subdirectories are not encrypted, password is the content of the file
       // 目录下有该文件则加密目录，子目录不加密，密码是文件内容
-      "PASSWD_FILENAME": ".password",
+      "PASSWD_FILENAME": "",
       // Directory protection depth (-1=disabled) | 目录保护层数（-1=关闭）
       // Example: 3 protects /path and /path/subdir | 示例：3 保护 /路径 及其子目录
       "PROTECTED_LAYERS": -1,
