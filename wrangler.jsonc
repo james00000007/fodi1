@@ -14,8 +14,8 @@
   "kv_namespaces": [
     {
       "binding": "FODI_CACHE",
-      // "preview_id": "f6c9b2af54f84f75a3147a786abdf49f", // for development
-      "id": "f6c9b2af54f84f75a3147a786abdf49f" // <~ https://dash.cloudflare.com/?to=/:account/workers/kv/namespaces
+      // "preview_id": "", // for development
+      "id": "731a815584914171ac45eafe3cbf0713" // <~ https://dash.cloudflare.com/?to=/:account/workers/kv/namespaces
     }
   ],
   "vars": {
